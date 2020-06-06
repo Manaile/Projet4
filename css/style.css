@@ -541,10 +541,19 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
+.service {
+    font-size: 1.2rem;
+    margin-bottom: 45px;
 }
-
+h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+blockquote{
+    font-size:1.2rem;
+    font-style: italic;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -647,7 +656,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:rgb(43, 42, 42) ;
+    background:rgb(58, 58, 58) ;
     color:#f3813f !important;
     box-shadow:0 0 5px #f3813f, 0 0 5px#f3813f,0 0 5px #f3813f;
 }
@@ -910,5 +919,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .service{
+        margin-bottom: 5px;
     }
 }
