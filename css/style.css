@@ -517,8 +517,17 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+    font-size: 1.1rem;
 }
-
+#nous h2,#nous a,#nous p{
+    font-size: 1.3rem;
+}
+#nous h2{
+    color: #F3976C!important;
+}
+#nous a:hover{
+    text-decoration:underline #f3813f;
+}
 .container {
     max-width: 1000px;
 }
@@ -627,8 +636,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(71, 70, 70, 0.856);
     padding: 40px 40px 40px 40px;
+    box-shadow:0 0 5px #f3813f, 0 0 5px#f3813f,0 0 5px #f3813f;
 }
 
 .bold-link {
@@ -909,13 +919,15 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+    .black-background {
+    margin: 0 10px 0 10px;
 }
-
+}
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
@@ -923,4 +935,6 @@ h4 {
     .service{
         margin-bottom: 5px;
     }
+
+
 }
