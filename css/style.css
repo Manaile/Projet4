@@ -927,6 +927,9 @@ h4 {
     .black-background {
     margin: 0 10px 0 10px;
 }
+    .fa-facebook,.fa-dribbble,.fa-twitter,.fa-instagram{
+    padding: 5px;
+}
 }
 @media (max-width: 767px) {
     .bloc-mob-center-text {
