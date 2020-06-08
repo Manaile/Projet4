@@ -667,7 +667,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #f3813f!important;
+    background: rgb(58, 58, 58)!important;
     color: #FFFFFF!important;
 }
 .logo{
@@ -696,11 +696,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/dots.png");
+    background-image: url("../img/dots.jpg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/lines.png");
+    background-image: url("../img/lines.jpg");
 }
 
 .bg-banniere {
@@ -708,9 +708,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/presentation.bmp");
+    background-image: url("../img/presentation.jpg");
 }
-
+footer{
+    color: rgb(0, 0, 0);
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
