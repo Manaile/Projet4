@@ -6,7 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -385,22 +384,18 @@ button {
     z-index: 500;
     transition: all .9s ease-in-out;
 }
-
 .scrollToTop span {
     margin-top: 6px;
 }
-
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
 }
-
 a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
 }
-
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -418,7 +413,6 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -562,6 +556,7 @@ h2{
 blockquote{
     font-size:1.2rem;
     font-style: italic;
+    font-weight: bold;
 }
 .tight-width-whitespace {
     max-width: 700px;
