@@ -378,14 +378,15 @@ button {
     width: 40px;
     height: 40px;
     position:fixed;
-    bottom: 50px;
+    bottom: 20px;
     right: 20px;
     opacity: 0;
     z-index: 500;
-    transition: all .9s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .scrollToTop span {
     margin-top: 6px;
+    color: #fffff5;
 }
 .showScrollTop {
     font-size: 14px;
@@ -412,6 +413,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    left: 50%;
 }
 a[data-lightbox]:hover img {
     opacity: 0.6;
@@ -437,7 +439,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFF;
+    color: black;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -510,8 +512,8 @@ p,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    font-size: 1.1rem;
-    color: black;
+    font-size: 1rem;
+    color: black!important;
 }
 #nous h2,#nous a,#nous p{
     font-size: 1.3rem;
@@ -557,6 +559,9 @@ blockquote{
     font-size:1.2rem;
     font-style: italic;
     font-weight: bold;
+}
+blockquote p{
+    font-size: 1.1rem;
 }
 .tight-width-whitespace {
     max-width: 700px;
@@ -624,6 +629,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    
 }
 
 .avatar {
@@ -930,6 +936,12 @@ footer{
     .fa-facebook,.fa-dribbble,.fa-twitter,.fa-instagram{
     padding: 5px;
 }
+    .navbar-toggler{
+    margin-top: 10px;
+    }
+    .navbar img{
+        margin: 0;
+    }
 }
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -938,6 +950,13 @@ footer{
     .service{
         margin-bottom: 5px;
     }
-
+    
 
 }
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+  }
