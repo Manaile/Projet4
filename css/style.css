@@ -201,6 +201,7 @@
 .et-icon-dribbble:before{content:"\e063"}
 body{margin:0;padding:0;background:#FFF;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 a,
+.row{margin-left: 0;margin-right: 0;}
 button{transition:all .3s ease-in-out;outline:none!important;}
 a:hover{text-decoration:none;cursor:pointer;}
 #page-loading-blocs-notifaction{position:fixed;top:0;bottom:0;width:100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
@@ -429,11 +430,12 @@ footer{color:rgb(0, 0, 0);}
 @media (max-width:992px) and (min-width:768px){.navbar .nav{max-width:80%}
 .nav-center.navbar .nav{max-width:100%}
 }
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){.b-parallax{background-attachment:scroll;}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){.b-parallax{background-attachment:scroll;}
 }
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5){.b-parallax{background-attachment:scroll;}
+@media only screen and (min-width:1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5){.b-parallax{background-attachment:scroll;}
 }
-@media (max-width:991px){.container{width:100%;}
+@media (max-width:991px){
+.container{width:100%;}
 .b-parallax{background-attachment:scroll;}
 .page-container,
 #hero-bloc{overflow-x:hidden;position:relative;}
@@ -441,7 +443,8 @@ footer{color:rgb(0, 0, 0);}
 .bloc-group .bloc{display:block;width:100%;}
 .bloc-fill-screen .fill-bloc-top-edge,
 }
-@media (max-width:767px){.page-container{overflow-x:hidden;position:relative;}
+@media (max-width:767px){
+.page-container{overflow-x:hidden;position:relative;}
 h1,
 h2,
 h3,
