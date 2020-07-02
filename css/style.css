@@ -352,7 +352,7 @@ button{outline:none!important;}
 a[data-lightbox]{position:relative;display:block;text-align:center;}
 a[data-lightbox]:hover::before{content:"+";font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;font-size:32px;width:50px;height:50px;margin-left:-25px;border-radius:50%;background:rgba(0, 0, 0, .6);color:#FFF;font-weight:100;z-index:1;position:absolute;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);left:50%;}
 a[data-lightbox]:hover img{opacity:0.6;-webkit-animation-fill-mode:none;animation-fill-mode:none;}
-#lightbox-modal{display:flex;align-items:center;}
+#lightbox-modal{display:flex;align-items:center;text-align:center;}
 #lightbox-modal .modal-dialog{width:90%;max-width:900px;margin:0 auto 0;}
 #lightbox-modal .modal-dialog img{max-height:90vh;margin:0 auto;}
 .lightbox-caption{padding:20px;color:black;background:rgba(0, 0, 0, .5);position:absolute;left:15px;right:15px;bottom:5px;}
